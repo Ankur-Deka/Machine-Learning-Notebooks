@@ -3,7 +3,13 @@
 In most of the following experiments, I try to implement things from scratch. The focus is on understanding rather than achieving the state-of-the-art results.
 
 1. `Gaussian Process.ipynb`: Gaussian Process.
-<img src="figures/gp.png" width="350"/>
+
+  <p float="center">
+  	<img src="figures/gp_prior.png" width="300"/>
+  	<img src="figures/gp.png" width="300"/>
+  </p>
+
+
 1. `VAE.ipynb`: Variational Autoencoder for MNIST.
 <p float="center">
 	<img src="figures/VAE_latent.png" width="250"/>
