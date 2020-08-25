@@ -1,6 +1,6 @@
-# Simple experiments on Machine Learning
+# Jupyter Notebooks on Machine Learning
 
-In most of the following experiments, I try to implement things from scratch. The focus is on understanding rather than achieving the state-of-the-art results. So far I have implemented Gaussian Process, Variational Auto Encoder (VAE), Natural Gradient and Learning Trigonometric Functions using Neural Networks.
+I implement some interesting Machine Learning topics in Jupyter Notebooks, mostly from scratch. The focus is on understanding rather than achieving the state-of-the-art results. So far I have implemented Gaussian Process, Variational Auto Encoder (VAE), Natural Gradient and Learning Trigonometric Functions using Neural Networks. I hope these help you understand the topics better.
 
 1. `Gaussian Process.ipynb`: Gaussian Process.
 	<p float="center">
