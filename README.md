@@ -17,7 +17,7 @@ In most of the following experiments, I try to implement things from scratch. Th
     <img src="figures/VAE_samples.png" width="250"/>
 </p>
 
-1. `Natural Gradient.ipynb`: Natural gradient to learn the parameters of a 1D Gaussian. Empirically I observe that natural gradient ascent converges faster than simple gradient ascent. Moreover, the KL divergence between 2 likelihood functions at consecutive training steps remains roughly the same during training. For theory on Natural Gradient I recommend reading [Agustinus Kristladl's Blog](https://wiseodd.github.io/techblog/2018/03/14/natural-gradient/#:~:text=Up%20to%20constant%20factor%20of,%E2%88%87%CE%B8L(%CE%B8).](https://wiseodd.github.io/techblog/2018/03/14/natural-gradient/#:~:text=Up to constant factor of,∇θL(θ).)
+1. `Natural Gradient.ipynb`: Natural gradient to learn the parameters of a 1D Gaussian. Empirically I observe that natural gradient ascent converges faster than simple gradient ascent. Moreover, the KL divergence between 2 likelihood functions at consecutive training steps remains roughly the same during training. For theory on Natural Gradient I recommend reading [Agustinus Kristladl's Blog](https://wiseodd.github.io/techblog/2018/03/14/natural-gradient/#:~:text=Up%20to%20constant%20factor%20of,%E2%88%87%CE%B8L(%CE%B8).)
 
    <p float="center">
        <img src="figures/natural_contour.png" width=250/>
