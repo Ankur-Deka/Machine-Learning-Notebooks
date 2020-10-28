@@ -1,6 +1,6 @@
 # Jupyter Notebooks on Machine Learning
 
-I implement some interesting Machine Learning topics in Jupyter Notebooks, mostly from scratch. The focus is on understanding rather than achieving the state-of-the-art results. So far I have implemented Gaussian Process, Variational Auto Encoder (VAE), Natural Gradient and Learning Trigonometric Functions using Neural Networks. I hope these help you understand the topics better.
+I implement some interesting Machine Learning topics in Jupyter Notebooks, mostly from scratch. The focus is on understanding rather than achieving the state-of-the-art results. So far I have implemented Gaussian Process, Variational Auto Encoder (VAE), Natural Gradient, Bayesian Linear Regression and Learning Trigonometric Functions using Neural Networks. I hope these help you understand the topics better.
 
 1. `Gaussian Process.ipynb`: Gaussian Process.
 	<p float="center">
@@ -22,14 +22,15 @@ I implement some interesting Machine Learning topics in Jupyter Notebooks, mostl
 	    <img src="figures/natural_likelihood_map.png" width=250/>
 	</p>
 
-1. `Bayesian Linear Regression.ipynb`: Bayesian linear regression for 1D data using Gaussian form for both prior and likelihood, and known variance of likelihood term. The confidence of our model increases with more data points. This really demonstrates the power of Bayesian learning - when we have less data model itself tells us that it is less confident!
+1. `Bayesian Linear Regression.ipynb`: Bayesian linear regression for 1D data using Gaussian form for both prior and likelihood, and known variance of likelihood term. The confidence of our model increases with more data points. This really demonstrates the power of Bayesian learning - when we have less data model itself tells us that it is less confident! For theory on Bayesian Linear Regression, here is a great [video](https://youtu.be/nrd4AnDLR3U). Note that I used a slightly different notation in my code.
+	
 	<p float="center">
 		<img src="figures/n=3, Prior.png" width="180">		
 		<img src="figures/n=3, Posterior.png" width="180">
 		<img src="figures/n=20, Posterior.png" width="180">
 		<img src="figures/n=100, Posterior.png" width="180">
-	</p>
-
+</p>
+	
 1. `learn_transform.py`: Can a neural network learn forward and inverse trigonometric (sine/cosine/tangent) functions? My conclusion is that it can learn it in and around the regions where it has seen the data. Sigmoid activation works better than ReLU.
 	<p float="center">
 	    <img src="figures/sigmoid.png" width=300/>
