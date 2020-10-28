@@ -22,6 +22,14 @@ I implement some interesting Machine Learning topics in Jupyter Notebooks, mostl
 	    <img src="figures/natural_likelihood_map.png" width=250/>
 	</p>
 
+1. `Bayesian Linear Regression.ipynb`: Bayesian linear regression for 1D data using Gaussian form for both prior and likelihood, and known variance of likelihood term. The confidence of our model increases with more data points. This really demonstrates the power of Bayesian learning - when we have less data model itself tells us that it is less confident!
+	<p float="center">
+		<img src="figures/n=3, Prior.png" width="200">		
+		<img src="figures/n=3, Posterior.png" width="200">
+		<img src="figures/n=20, Posterior.png" width="200">
+		<img src="figures/n=100, Posterior.png" width="200">
+	</p>
+
 1. `learn_transform.py`: Can a neural network learn forward and inverse trigonometric (sine/cosine/tangent) functions? My conclusion is that it can learn it in and around the regions where it has seen the data. Sigmoid activation works better than ReLU.
 	<p float="center">
 	    <img src="figures/sigmoid.png" width=300/>
