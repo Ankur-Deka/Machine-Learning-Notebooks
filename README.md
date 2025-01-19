@@ -37,6 +37,4 @@ I implement some interesting Machine Learning topics in Jupyter Notebooks, mostl
 	    <img src="figures/relu.png" width=300/>
 	</p>
 
-
-
-
+1. `Vision Transformer.ipynb`: A simple implementation of Vision Transformer in pytorch
