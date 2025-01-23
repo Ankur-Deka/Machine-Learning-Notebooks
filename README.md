@@ -37,7 +37,12 @@ I implement some interesting Machine Learning topics in Jupyter Notebooks, mostl
 	    <img src="figures/relu.png" width=300/>
 	</p>
 
-1. `Vision Transformer.ipynb`: A simple implementation of Vision Transformer in pytorch and traind on Cifar10
+1. `Vision Transformer.ipynb`: A simple implementation of Vision Transformer in pytorch and traind on Cifar10.
 	<p float="center">
 	    <img src="figures/cifar_samples.png" width=400/>
+	</p>
+
+1. `Backpropagation.ipynb`: Forward and backward propagation (backpropagation) for a fully connected neural network from scratch using numpy.
+	<p float="center">
+	    <img src="figures/spiral_data.png" width=400/>
 	</p>
